@@ -58,4 +58,3 @@ class ImageDataset(Dataset):
 
     def __len__(self):
         return max(len(self.files_A), len(self.files_B))
-
