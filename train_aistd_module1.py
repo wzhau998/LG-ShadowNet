@@ -38,7 +38,7 @@ opt = parser.parse_args()
 # SRD
 #opt.dataroot = '/home/liuzhihao/dataset/SRD'
 # ISTD
-opt.dataroot = '/home/liuzhihao/dataset/ISTD'
+opt.dataroot = '/content/drive/My Drive/LGSN-ISTD'
 
 if not os.path.exists('model_istda_lgsn_module1'):
     os.mkdir('model_istda_lgsn_module1')
